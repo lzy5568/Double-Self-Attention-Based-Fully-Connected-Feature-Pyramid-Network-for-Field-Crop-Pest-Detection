@@ -1,0 +1,47 @@
+#names: ['apple', 'banana', 'orange']
+#nc: 3
+#train: E:\2022\11-months\yolov5-master\mydata\train_1.txt
+#val: E:\2022\11-months\yolov5-master\mydata\val_1.txt
+#test: C:\Users\10135\Desktop\moban\visdrone2019\VisDrone2019-DET-val\images.txt
+
+
+#names: ['apple', 'banana', 'orange']
+## Classes
+##nc: 10  # number of classes
+##names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
+#nc: 3
+#names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
+#nc: 10
+
+#test: C:\Users\10135\Desktop\moban\visdrone2019\VisDrone2019-DET-val\images.txt
+#train: F:\zws\yolov7-main\mydata\train_1.txt
+#val: F:\zws\yolov7-main\mydata\val_1.txt
+
+names: ['ship']
+nc: 1
+#train: F:\zws\yolov7-main\mydata\train_1.txt
+#val: F:\zws\yolov7-main\mydata\val_1.txt
+#train: F:\zws\yolov7-main\hrdata\train_1.txt
+#val: F:\zws\yolov7-main\hrdata\val_1.txt
+#test: F:\zws\yolov7-main\hrdata\test_1.txt
+
+#
+#train: F:/zws/hrsc2016/images/train/
+#val: F:/zws/hrsc2016/images/val/
+
+
+
+#train: F:\zws\yolov7-main\sardata\train_1.txt
+#val: F:\zws\yolov7-main\sardata\val_1.txt
+
+#新的数据集
+#HRSC2016 8：2
+train: F:\zws\yolov7-main\hrdata2\train_1.txt
+val: F:\zws\yolov7-main\hrdata2\val_1.txt
+
+
+
+
+#SARship
+#train: F:\zws\yolov7-main\mtdata1\train_1.txt
+#val: F:\zws\yolov7-main\mtdata1\val_1.txt

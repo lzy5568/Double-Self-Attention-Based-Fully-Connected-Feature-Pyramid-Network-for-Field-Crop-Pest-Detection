@@ -1,0 +1,37 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: IP16dataset/  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: rice leaf roller       #稻纵卷叶螟
+  1: rice leaf caterpillar  #米叶毛虫
+  2: asiatic rice borer     #亚洲螟
+  3: plan thopper           #白背飞虱
+  4: thrips                 #蓟马
+  5: rice water weevil      #稻水象甲
+  6: rice leafhopper        #稻叶蝉
+  7: grub                   #蛴螬
+  8: mole cricket           #鼹鼠蟋蟀
+  9: wireworm               #金针虫
+  10: cutworm               #地老虎,墨虫
+  11: midge                 #蠓
+  12: red spider            #红蜘蛛
+  13: corn borer            #玉米螟
+  14: army worm             #粘虫
+  15: aphids                #蚜虫
+
+
+# Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco128.zip
